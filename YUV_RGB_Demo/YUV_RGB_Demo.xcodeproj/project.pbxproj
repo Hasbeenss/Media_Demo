@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8955C3E1FCFFD080096AC41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8955C3D1FCFFD080096AC41 /* main.m */; };
+		C8955C3E1FCFFD080096AC41 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8955C3D1FCFFD080096AC41 /* main.mm */; };
 		C8955C4A1FCFFE1B0096AC41 /* test_demo_method.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8955C481FCFFE1B0096AC41 /* test_demo_method.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		C8955C3A1FCFFD080096AC41 /* YUV_RGB_Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YUV_RGB_Demo; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8955C3D1FCFFD080096AC41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8955C3D1FCFFD080096AC41 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		C8955C451FCFFDBE0096AC41 /* cie1931_500x500.rgb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cie1931_500x500.rgb; sourceTree = "<group>"; };
 		C8955C461FCFFDBE0096AC41 /* lena_256x256_yuv420p.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lena_256x256_yuv420p.yuv; sourceTree = "<group>"; };
 		C8955C471FCFFDBE0096AC41 /* lena_256x256_yuv444p.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lena_256x256_yuv444p.yuv; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				C8955C441FCFFDBE0096AC41 /* Sources */,
-				C8955C3D1FCFFD080096AC41 /* main.m */,
+				C8955C3D1FCFFD080096AC41 /* main.mm */,
 				C8955C481FCFFE1B0096AC41 /* test_demo_method.cpp */,
 				C8955C491FCFFE1B0096AC41 /* test_demo_method.hpp */,
 			);
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8955C3E1FCFFD080096AC41 /* main.m in Sources */,
+				C8955C3E1FCFFD080096AC41 /* main.mm in Sources */,
 				C8955C4A1FCFFE1B0096AC41 /* test_demo_method.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
