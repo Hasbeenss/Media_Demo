@@ -15,4 +15,11 @@
 
 int yuv420_split(const char *input_path, const char *output_dir, int w, int h, int num);
 
+int yuv444_split(const char *input_path, const char *output_dir, int w, int h, int num);
+
+int yuv420_gray(const char *input_path, const char *output_dir, int w, int h, int num);
+
+int yuv420_half(const char *input_path, const char *output_dir, int w, int h, int num);
+
+int yuv420_border(const char *input_path, const char *output_dir, int w, int h, int border, int num);
 #endif /* test_demo_method_hpp */
